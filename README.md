@@ -20,13 +20,13 @@ Used to verify that the [ServerPusher](https://github.com/CappyTech/ServerPusher
 
 - Java 17+
 - Paper/Spigot 1.18 or later
-- `ServerPusher.jar` must also be placed in `/plugins`
+- `serverpusher-1.0.0.jar` must also be placed in `/plugins`
 
 ---
 
 ## Setup
 
-1. Place both `ServerEmitter.jar` and `server-pusher-1.0.0.jar` into your server’s `/plugins` folder.
+1. Place both `serveremitter-1.0.0.jar` and `serverpusher-1.0.0.jar` into your server’s `/plugins` folder.
 2. Start the server to generate `config.yml`
 3. Edit `config.yml`:
 
