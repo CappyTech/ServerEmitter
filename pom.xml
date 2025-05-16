@@ -34,10 +34,10 @@
     <!-- ServerPusher system jar (manually placed in lib/) -->
     <dependency>
       <groupId>com.sovereigncraft</groupId>
-      <artifactId>serverpusher</artifactId>
+      <artifactId>ServerPusher</artifactId>
       <version>1.0.0</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/lib/ServerPusher-1.0.0.jar</systemPath>
+      <systemPath>${project.basedir}/lib/serverpusher-1.0.0.jar</systemPath>
     </dependency>
   </dependencies>
 
