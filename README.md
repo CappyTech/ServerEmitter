@@ -1,9 +1,9 @@
 # ServerEmitter
 -------------
 
-A Minecraft plugin that sends test events using ServerPusher.
+A Minecraft plugin that sends test events using [ServerPusher](https://github.com/CappyTech/ServerPusher).
 
-Used to verify that the ServerPusher → ServerReceiver → MongoDB pipeline is working correctly. Includes a /pushhello command for basic testing.
+Used to verify that the ServerPusher → [ServerReceiver](https://github.com/CappyTech/ServerReceiver) → MongoDB pipeline is working correctly. Includes a /pushhello command for basic testing.
 
 ## Features:
 - Requires ServerPusher plugin
