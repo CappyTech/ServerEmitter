@@ -1,26 +1,29 @@
-ServerPusher
-------------
+# ServerEmitter
+-------------
 
-Generic JSON transport library for Minecraft plugins.
+A Minecraft plugin that sends test events using ServerPusher.
 
-ServerPusher enables Spigot/Paper plugins to send dynamic JSON payloads via HTTP POST to external services like Node.js backends. It’s lightweight, plugin-agnostic, and ideal for dashboards, monitoring, and analytics.
+Used to verify that the ServerPusher → ServerReceiver → MongoDB pipeline is working correctly. Includes a /pushhello command for basic testing.
 
-Features:
-- Send structured JSON from Minecraft
-- Built-in HTTP client with custom headers
-- Add to any plugin without rewriting logic
-- Used by ServerEmitter and ServerReceiver
+## Features:
+- Requires ServerPusher plugin
+- Sends to /api/push endpoint
+- Configurable backend URL and token
+- Includes /pushhello command for testing
 
-Usage:
-- Configure with a backend URL and headers (e.g., Authorization)
-- Send any data as Map<String, Object>
-- Sends automatically as JSON via POST
+## Setup:
+1. Place both ServerEmitter.jar and server-pusher.jar in /plugins
+2. Edit config.yml with backend URL and Authorization
+3. Run /pushhello to test the pipeline
 
-Example:
-  Map<String, Object> data = new HashMap<>();
-  data.put("event", "heartbeat");
-  data.put("players", 10);
-  ServerPusher.sendData("heartbeat", data);
+## plugin.yml:
+```java
+depend: [ServerPusher]
 
-License:
+commands:
+  pushhello:
+    description: Send test data
+    usage: /pushhello
+```
+## License:
 MIT
