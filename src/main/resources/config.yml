@@ -1,0 +1,13 @@
+# ServerEmitter Configuration
+# ---------------------------
+# Defines where to emit structured data using ServerPusher.
+
+# The full URL of your backend endpoint
+backend-url: "http://localhost:3000/api/receive"
+
+# Optional: the HTTP header name used for authentication
+# Default is "Authorization" if omitted
+auth-header: "Authorization"
+
+# Your backend auth token
+auth-token: "your-secret-token"
