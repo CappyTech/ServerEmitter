@@ -1,8 +1,0 @@
-name: ServerEmitter
-version: 1.0
-main: com.sovereigncraft.serveremitter.ServerEmitter
-api-version: 1.18
-commands:
-  pushhello:
-    description: Sends a test push to the server receiver
-    usage: /pushhello
