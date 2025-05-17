@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.sovereigncraft</groupId>
-  <artifactId>serveremitter</artifactId>
-  <version>1.0.0</version>
+  <artifactId>ServerEmitter</artifactId>
+  <version>1.0.1</version>
   <name>ServerEmitter</name>
 
   <properties>
@@ -35,9 +35,9 @@
     <dependency>
       <groupId>com.sovereigncraft</groupId>
       <artifactId>ServerPusher</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
       <scope>system</scope>
-      <systemPath>${project.basedir}/lib/serverpusher-1.0.0.jar</systemPath>
+      <systemPath>${project.basedir}/lib/ServerPusher-1.0.1.jar</systemPath>
     </dependency>
   </dependencies>
 
